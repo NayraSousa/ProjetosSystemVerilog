@@ -1,20 +1,3 @@
-// module codificador(
-//     input logic d1, d2, d3, d4, d5, d6, d7, d8,
-//     output logic dout1, dout2, dout3, dout4, dout5, dout6, dout7, dout8, p4, p3, p2, p1
-// );
-//     assign p1 = d1 ^ d2 ^ d4 ^ d5 ^ d7;
-//     assign p2 = d1 ^ d3 ^ d4 ^ d6 ^ d7;
-//     assign p3 = d2 ^ d3 ^ d4 ^ d8;
-//     assign p4 = d5 ^ d6 ^ d7 ^ d8;
-//     assign dout1 = d1;
-//     assign dout2 = d2;
-//     assign dout3 = d3;
-//     assign dout4 = d4;
-//     assign dout5 = d5;
-//     assign dout6 = d6;
-//     assign dout7 = d7;
-//     assign dout8 = d8;
-
 module decodificador(
     input logic par1, par2, dig1, par3, dig2, dig3, dig4, par4, dig5, dig6, dig7, dig8,
     output logic dout1, dout2, dout3, dout4, dout5, dout6, dout7, dout8
